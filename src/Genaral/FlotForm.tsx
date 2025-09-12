@@ -23,7 +23,7 @@ const FlotForm = () => {
   return (
     <Dialog open={isOpen} onOpenChange={setIsOpen}>
       <DialogTrigger className="hidden">Open</DialogTrigger>
-      <DialogContent className="sm:max-w-[450px] w-[80%] bg-white shadow-2xl rounded-3xl p-6">
+      <DialogContent className="sm:max-w-[450px] h-auto w-[90%] bg-white shadow-2xl rounded-3xl p-6">
         <DialogHeader>
           <DialogTitle className="text-center text-2xl font-bold text-red-600 montserrat">
             Contact Chamundeswari Astrology Center

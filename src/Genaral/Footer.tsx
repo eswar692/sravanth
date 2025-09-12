@@ -51,7 +51,7 @@ export default function Footer() {
           <p className="text-sm open-sans leading-relaxed">
             <b>Chamundeswari Astrology Center</b> is ranked as one of South
             India's Top 5 Astrologers. Using exceptional astrological skills,
-            Dr. Meenaakshi Sharma helps clients understand themselves, their
+            Dr. Sri Sanjeev Swamy helps clients understand themselves, their
             goals, aspirations, constraints, and potential.
           </p>
         </div>
@@ -59,8 +59,8 @@ export default function Footer() {
         {/* Contact */}
         <div>
           <h2 className="font-bold text-xl mb-3 montserrat">Contact Us</h2>
-          <p className="open-sans">📞 91 6302 133 653</p>
-          <p className="open-sans">💬 +91 6302 133 653</p>
+          <p className="open-sans">📞 91 63021 33653</p>
+          <p className="open-sans">💬 +91 63021 33653</p>
           <p className="mt-2 font-bold text-yellow-500 montserrat">
             Best Astro Guidance
           </p>

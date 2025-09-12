@@ -243,17 +243,17 @@ const AstrologyServicesModern = () => {
     {
       title: "Marriage Specialist",
       img: "https://astrologerdeepaksharma.in/images/s2.png",
-      phone: "+91-7626870001",
+      phone: "+91 63021 33653",
     },
     {
       title: "Husband Wife Dispute",
       img: "https://astrologerdeepaksharma.in/images/s1.png",
-      phone: "+91-7626870001",
+      phone: "+91 63021 33653",
     },
     {
       title: "Ex Love Back Expert",
       img: "https://astrologerdeepaksharma.in/images/s3.png",
-      phone: "+91-7626870001",
+      phone: "+91 63021 33653",
     },
   ];
   return (
@@ -278,10 +278,11 @@ const AstrologyServicesModern = () => {
               <h3 className="text-xl font-semibold text-gray-800 mb-2">
                 {service.title}
               </h3>
-              <button className="flex items-center gap-2 justify-center w-full bg-gradient-to-r from-red-500 to-pink-500 text-white py-2.5 rounded-lg font-medium hover:scale-105 transition-transform">
-                <Phone className="w-4 h-4" />
-                Call : {service.phone}
-              </button>
+              <a href={`tel:${service.phone}`}>
+                <button className="montserrat flex items-center justify-center gap-2 w-full bg-gradient-to-r from-red-500 to-pink-500 text-white font-medium py-2.5 rounded-full shadow-lg hover:shadow-red-400/50 hover:scale-105 transition-all">
+                  <Phone className="w-4 h-4" /> Call Now
+                </button>
+              </a>
             </div>
           ))}
         </div>
