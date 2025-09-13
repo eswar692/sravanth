@@ -41,8 +41,8 @@ export default function FAQ() {
   };
 
   return (
-    <section className="bg-gradient-to-b from-orange-50 to-yellow-100 py-16 px-6">
-      <div className="max-w-4xl mx-auto">
+    <section className="bg-gradient-to-b from-orange-50 to-yellow-100 py-16 px-2">
+      <div className="max-w-4xl mx-auto w-full">
         <h2 className="text-3xl md:text-4xl font-extrabold text-center text-red-700 montserrat">
           FAQs
         </h2>
@@ -50,10 +50,10 @@ export default function FAQ() {
           {faqs.map((faq, index) => (
             <div
               key={index}
-              className="bg-white border border-red-200 rounded-2xl shadow-md overflow-hidden"
+              className=" w-full bg-white border border-red-200 rounded-2xl shadow-md overflow-hidden"
             >
               <button
-                className="w-full flex justify-between items-center px-6 py-4 text-left text-lg font-semibold text-gray-800 hover:bg-red-50 transition montserrat"
+                className="w-full flex justify-between items-center px-4 py-3 text-left text-lg font-semibold text-gray-800 hover:bg-red-50 transition montserrat"
                 onClick={() => toggleFAQ(index)}
               >
                 {faq.question}
