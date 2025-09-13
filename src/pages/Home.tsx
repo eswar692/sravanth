@@ -11,11 +11,13 @@ import useInViewOnce from "../Genaral/InView";
 import { motion } from "framer-motion";
 import Testimonials from "../Genaral/Testimonial";
 import FAQ from "../Genaral/FAQ";
+import CardCarousel from "../Genaral/CardsCarousel";
 
 const Home = () => {
   return (
-    <div className="flex flex-col p-3 bg-orange-100 w-full h-full">
+    <div className="flex flex-col p-4 bg-orange-100 w-full h-full">
       <Carousel />
+      <CardCarousel />
       <Problems />
       <AboutAstrologer />
       <AstrologyServices />
@@ -85,12 +87,12 @@ const Problems = () => {
       initial={{ opacity: 0, y: 50 }}
       animate={inView ? { opacity: 1, y: 0 } : {}}
       transition={{ duration: 0.8, ease: "easeOut" }}
-      className="grid md:grid-cols-3 gap-6 p-6"
+      className="grid md:grid-cols-3 gap-6  w-full"
     >
       {problems.map((problem, index) => (
         <div
           key={index}
-          className="flex flex-col items-center bg-gradient-to-r from-pink-500 via-rose-500 to-orange-500 rounded-2xl shadow-lg overflow-hidden text-white
+          className="  flex flex-col items-center bg-gradient-to-r from-pink-500 via-rose-500 to-orange-500 rounded-2xl shadow-lg overflow-hidden text-white
           border-4 border-yellow-300 shadow-yellow-300/50"
         >
           {/* Image */}
