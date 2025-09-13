@@ -67,13 +67,13 @@ const CardCarousel = () => {
                 {/* Buttons */}
                 <div className="mt-4 flex gap-3 roboto">
                   <a
-                    href="tel:+919999999999"
+                    href="tel:916302133653"
                     className="font-roboto bg-white text-red-600 px-4 py-1 rounded-full flex items-center gap-2 shadow hover:bg-gray-100 transition"
                   >
                     <Phone size={18} /> Call
                   </a>
                   <a
-                    href="https://wa.me/919999999999"
+                    href="https://wa.me/916302133653"
                     target="_blank"
                     className="font-roboto bg-green-500 text-white px-4 py-2 rounded-full flex items-center gap-2 shadow hover:bg-green-600 transition"
                   >

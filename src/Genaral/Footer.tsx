@@ -107,19 +107,19 @@ export default function Footer() {
 
 const CopyRightAndContact = () => {
   return (
-    <div className="h-[200px] z-30 bg-gradient-to-r from-red-700 to-orange-600 text-white py-6 absolute bottom-0 left-0 right-0">
+    <div className="h-[200px] md:h-[80px] z-30 bg-gradient-to-r from-red-700 to-orange-600 text-white py-4 absolute bottom-0 left-0 right-0">
       <div className="max-w-6xl mx-auto px-6 flex flex-col md:flex-row justify-between items-center">
         {/* Left Column */}
-        <div className="mb-4 md:mb-0 text-center md:text-left">
-          <p className="font-montserrat text-sm montserrat font-semibold">
+        <div className="mb-4 md:mb-0 text-center md:text-left flex gap-2">
+          <p className="font-montserrat text-sm montserrat font-semibold mt-2">
             Designed and Developed By Eswar
           </p>
           <a
-            href="tel:+918886921826"
+            href="https://prodaddyagency.com/"
             className="text-lg font-bold font-roboto hover:underline hover:text-yellow-300 transition"
           >
-            <button className="bg-white text-black py-2 px-4 rounded text-sm">
-              +91 88869 21826
+            <button className=" text-black bg-white   py-2 px-4 rounded text-sm">
+              Pro Daddy Agency
             </button>
           </a>
         </div>
