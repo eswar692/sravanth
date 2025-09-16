@@ -36,13 +36,14 @@ export default function Contact() {
             <p className="flex items-center gap-3">
               <Mail className="w-6 h-6 text-orange-600" />
               <span>
-                <span className="font-semibold">Email:</span> guruji@example.com
+                <span className="font-semibold">Email:</span>{" "}
+                sanjiv34799@gmail.com
               </span>
             </p>
             <p className="flex items-center gap-3">
               <Phone className="w-6 h-6 text-orange-600" />
               <span>
-                <span className="font-semibold">Phone:</span> +91 98765 43210
+                <span className="font-semibold">Phone:</span> +91 63021 33653
               </span>
             </p>
           </div>
