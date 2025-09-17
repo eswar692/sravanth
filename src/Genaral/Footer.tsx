@@ -115,7 +115,7 @@ const CopyRightAndContact = () => {
             Designed and Developed By Eswar
           </p>
           <a
-            href="https://prodaddyagency.com/"
+            href="https://wa.me/918886921826?text=Hello%20Pro%20Daddy%20Agency"
             className="text-lg font-bold font-roboto hover:underline hover:text-yellow-300 transition"
           >
             <button className=" text-black bg-white   py-2 px-4 rounded text-sm">
