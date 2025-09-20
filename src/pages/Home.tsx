@@ -11,11 +11,13 @@ import { motion } from "framer-motion";
 import Testimonials from "../Genaral/Testimonial";
 import FAQ from "../Genaral/FAQ";
 import CardCarousel from "../Genaral/CardsCarousel";
+import ImageGrid from "../Genaral/ImageGrid";
 
 const Home = () => {
   return (
     <div className="flex flex-col p-4 bg-orange-100 w-full h-full">
       <Carousel />
+      <ImageGrid />
       <CardCarousel />
       <Problems />
       <AboutAstrologer />
