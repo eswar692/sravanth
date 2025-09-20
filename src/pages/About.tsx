@@ -1,3 +1,5 @@
+import ImageGrid from "../Genaral/ImageGrid";
+
 export default function About() {
   const slides = [
     {
@@ -87,6 +89,7 @@ export default function About() {
             </div>
           ))}
         </div>
+        <ImageGrid />
       </div>
     </section>
   );
