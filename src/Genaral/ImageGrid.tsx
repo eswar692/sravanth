@@ -2,8 +2,6 @@ import { useState } from "react";
 import { motion, AnimatePresence } from "framer-motion";
 
 const images = [
-  "https://bharatbestastrologers.com/wp-content/uploads/2025/07/WhatsApp-Image-2025-07-08-at-12.06.23_deb83635-300x200.jpg",
-  "https://bharatbestastrologers.com/wp-content/uploads/2025/07/certificate1-300x222.jpg",
   "https://allproblemsolutionastro.com/images/Award-2.jpg",
   "https://allproblemsolutionastro.com/images/Award-3.jpg",
   "https://allproblemsolutionastro.com/images/Award-1.jpg",
@@ -15,6 +13,8 @@ const images = [
   "https://static.wixstatic.com/media/b119e7_5fe5cb8d42514fd9a7f30e7c90b87d74~mv2.jpeg",
 
   "https://chakrasiddhijyothishyalaya.com/wp-content/uploads/2024/06/2.jpg",
+  "https://bharatbestastrologers.com/wp-content/uploads/2025/07/WhatsApp-Image-2025-07-08-at-12.06.23_deb83635-300x200.jpg",
+  "https://bharatbestastrologers.com/wp-content/uploads/2025/07/certificate1-300x222.jpg",
 ];
 
 const ImageGrid = () => {
