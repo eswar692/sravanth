@@ -58,7 +58,7 @@ export default function About() {
             readings, photo readings, and phone consultations. His expertise
             spans astrology, spiritual guidance, and personal development,
             making him a versatile and influential figure in the spiritual
-            community.
+            community best known for his insightful interpretations.
             <br />
             <br />
             Renowned for his{" "}
