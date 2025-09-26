@@ -55,7 +55,10 @@ export default function About() {
               Sanjev Swamy
             </span>{" "}
             offers a wide range of services, including palm readings, face
-            readings, photo readings, and phone consultations.
+            readings, photo readings, and phone consultations. His expertise
+            spans astrology, spiritual guidance, and personal development,
+            making him a versatile and influential figure in the spiritual
+            community.
             <br />
             <br />
             Renowned for his{" "}
