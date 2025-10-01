@@ -6,7 +6,6 @@ import Contact from "./pages/Contact";
 import Header from "./Genaral/Header";
 import Footer from "./Genaral/Footer";
 import CallToAction from "./Genaral/CallToAction";
-import FlotForm from "./Genaral/FlotForm";
 
 const App = () => {
   return (
