@@ -23,7 +23,6 @@ const App = () => {
       {/* <Footer /> */}
       <Footer />
       <CallToAction />
-      <FlotForm />
     </div>
   );
 };

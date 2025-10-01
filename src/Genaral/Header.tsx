@@ -6,12 +6,9 @@ import { company_name, phone_number } from "./secrete";
 
 const Header = () => {
   return (
-    <header className="w-full bg-gradient-to-r from-purple-900 via-purple-800 to-purple-900 shadow-2xl">
+    <header className="w-full bg-gradient-to-r from-pink-600 via-rose-500 to-purple-300 shadow-2xl">
       <div className="p-4 md:w-[85%] mx-auto flex flex-col gap-6">
-        {/* Row 1: Title & Button */}
         <Title />
-
-        {/* Row 2: Logo & Menu */}
         <Logo />
       </div>
       <TextMarquee />
@@ -40,7 +37,7 @@ const Logo = () => (
     {/* Logo + Text */}
     <div className="flex items-center gap-4">
       <img
-        src="https://i.pinimg.com/736x/d8/69/e4/d869e47627b9b93f3677d5df91696883.jpg"
+        src="https://i.pinimg.com/1200x/2c/a6/9a/2ca69a5542fc313ee2f792430ad54108.jpg"
         alt="Logo"
         className="w-20 h-20 md:w-24 md:h-24 rounded-2xl shadow-2xl border-4 border-yellow-500"
       />
@@ -138,7 +135,18 @@ const MobileMenu = ({ setOpen }: { setOpen: (open: boolean) => void }) => (
 );
 
 const TextMarquee = () => (
-  <div className="overflow-hidden bg-gradient-to-r from-yellow-500 to-yellow-600">
+  <div
+    className="overflow-hidden
+ bg-gradient-to-l from-green-300 via-blue-300 to-orange-300
+
+
+
+
+
+
+
+"
+  >
     <Marquee
       speed={50}
       className="whitespace-nowrap text-black  py-2 open-sans text-md md:text-base tracking-wide"

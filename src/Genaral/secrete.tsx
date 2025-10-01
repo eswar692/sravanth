@@ -1,8 +1,8 @@
-const phone_number = "";
+const phone_number = "919353410710";
 const email = "";
-const whatsapp_number = "";
+const whatsapp_number = "919353410710";
 const company_name = "Astro Honest";
-const person_name = "";
+const person_name = "Raghavendra Guruji";
 const address = "";
 const website_url = "https://www.astrohonest.com";
 
