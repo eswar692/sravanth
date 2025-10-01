@@ -1,4 +1,4 @@
-const phone_number = "919353410710";
+const phone_number = "9353410710";
 const email = "";
 const whatsapp_number = "919353410710";
 const company_name = "Astro Honest";
