@@ -40,7 +40,7 @@ const Logo = () => (
     {/* Logo + Text */}
     <div className="flex items-center gap-4">
       <img
-        src="https://t3.ftcdn.net/jpg/04/28/27/78/360_F_428277833_4XElmIIMRG8I9ydX1ethMo8QNzax3Loy.jpg"
+        src="https://i.pinimg.com/736x/d8/69/e4/d869e47627b9b93f3677d5df91696883.jpg"
         alt="Logo"
         className="w-20 h-20 md:w-24 md:h-24 rounded-2xl shadow-2xl border-4 border-yellow-500"
       />
