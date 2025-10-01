@@ -1,35 +1,34 @@
-import ImageGrid from "../Genaral/ImageGrid";
 import { person_name } from "../Genaral/secrete";
 
 export default function About() {
-  const slides = [
-    {
-      id: 1,
-      img: "https://ravishankarguruji.com/storage/2025/03/3-2048x1366.jpeg",
-    },
-    { id: 2, img: "https://ravishankarguruji.com/storage/2025/03/2.jpeg" },
-    { id: 3, img: "https://ravishankarguruji.com/storage/2025/03/1.jpeg" },
-    {
-      id: 4,
-      img: "https://kalikadeviastro.com/wp-content/uploads/2024/12/WhatsApp-Image-2024-12-23-at-14.18.17_0b522bc6-1024x768.jpg",
-    },
-    {
-      id: 5,
-      img: "https://kalikadeviastro.com/wp-content/uploads/2024/12/IMG-20241222-WA0003-1152x1536.jpg",
-    },
-    {
-      id: 6,
-      img: "https://kalikadeviastro.com/wp-content/uploads/2024/12/WhatsApp-Image-2024-12-23-at-14.18.52_50457e75-1024x768.jpg",
-    },
-    {
-      id: 7,
-      img: "https://kalikadeviastro.com/wp-content/uploads/2024/12/IMG-20241222-WA0006-1152x1536.jpg",
-    },
-    {
-      id: 8,
-      img: "https://kalikadeviastro.com/wp-content/uploads/2024/12/IMG-20241222-WA0005-1152x1536.jpg",
-    },
-  ];
+  // const slides = [
+  //   {
+  //     id: 1,
+  //     img: "https://ravishankarguruji.com/storage/2025/03/3-2048x1366.jpeg",
+  //   },
+  //   { id: 2, img: "https://ravishankarguruji.com/storage/2025/03/2.jpeg" },
+  //   { id: 3, img: "https://ravishankarguruji.com/storage/2025/03/1.jpeg" },
+  //   {
+  //     id: 4,
+  //     img: "https://kalikadeviastro.com/wp-content/uploads/2024/12/WhatsApp-Image-2024-12-23-at-14.18.17_0b522bc6-1024x768.jpg",
+  //   },
+  //   {
+  //     id: 5,
+  //     img: "https://kalikadeviastro.com/wp-content/uploads/2024/12/IMG-20241222-WA0003-1152x1536.jpg",
+  //   },
+  //   {
+  //     id: 6,
+  //     img: "https://kalikadeviastro.com/wp-content/uploads/2024/12/WhatsApp-Image-2024-12-23-at-14.18.52_50457e75-1024x768.jpg",
+  //   },
+  //   {
+  //     id: 7,
+  //     img: "https://kalikadeviastro.com/wp-content/uploads/2024/12/IMG-20241222-WA0006-1152x1536.jpg",
+  //   },
+  //   {
+  //     id: 8,
+  //     img: "https://kalikadeviastro.com/wp-content/uploads/2024/12/IMG-20241222-WA0005-1152x1536.jpg",
+  //   },
+  // ];
 
   return (
     <section className="bg-gradient-to-b from-orange-50 to-yellow-50 py-16 px-6 font-sans">
