@@ -1,4 +1,5 @@
 import ImageGrid from "../Genaral/ImageGrid";
+import { person_name } from "../Genaral/secrete";
 
 export default function About() {
   const slides = [
@@ -41,7 +42,7 @@ export default function About() {
           <p className="text-gray-700 text-lg leading-relaxed space-y-4">
             Astrologer{" "}
             <span className="font-bold text-red-700">
-              Astrologer Sanjev Swamy
+              Astrologer {person_name}
             </span>{" "}
             is a renowned and respected spiritual leader in India. With his deep
             knowledge of astrology and unwavering commitment to helping others,
@@ -52,7 +53,7 @@ export default function About() {
             Through his extensive experience and intuitive abilities, Astrologer
             <span className="font-semibold text-yellow-700">
               {" "}
-              Sanjev Swamy
+              {person_name}
             </span>{" "}
             offers a wide range of services, including palm readings, face
             readings, photo readings, and phone consultations. His expertise

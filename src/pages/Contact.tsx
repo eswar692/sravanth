@@ -1,5 +1,6 @@
 import { Mail, Phone } from "lucide-react"; // icons
 import Form from "../Genaral/Form";
+import { email, phone_number } from "../Genaral/secrete";
 
 export default function Contact() {
   return (
@@ -36,14 +37,13 @@ export default function Contact() {
             <p className="flex items-center gap-3">
               <Mail className="w-6 h-6 text-orange-600" />
               <span>
-                <span className="font-semibold">Email:</span>{" "}
-                sanjiv34799@gmail.com
+                <span className="font-semibold">Email:</span> {email}
               </span>
             </p>
             <p className="flex items-center gap-3">
               <Phone className="w-6 h-6 text-orange-600" />
               <span>
-                <span className="font-semibold">Phone:</span> +91 63021 33653
+                <span className="font-semibold">Phone:</span> {phone_number}
               </span>
             </p>
           </div>

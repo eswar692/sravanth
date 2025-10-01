@@ -1,4 +1,5 @@
 import React, { useState } from "react";
+import { company_name } from "../Genaral/secrete";
 
 // PrivacyPolicy.tsx
 // Simplified Privacy Policy component in TypeScript — only mentions data collected from a single form.
@@ -17,7 +18,6 @@ interface Props {
 }
 
 const PrivacyPolicy: React.FC<Props> = ({
-  companyName = "Chamundeswari Astrology Center",
   effectiveDate = "January 1, 2025",
   showAccept = false,
   onAccept = () => {},
@@ -26,7 +26,7 @@ const PrivacyPolicy: React.FC<Props> = ({
     {
       id: "intro",
       title: "Introduction",
-      content: `Welcome to ${companyName}. This privacy policy explains how we handle the information you provide through our form.`,
+      content: `Welcome to ${company_name}. This privacy policy explains how we handle the information you provide through our form.`,
     },
     {
       id: "data-we-collect",
@@ -55,7 +55,7 @@ const PrivacyPolicy: React.FC<Props> = ({
     {
       id: "contact",
       title: "Contact",
-      content: `If you have questions, contact privacy@${companyName
+      content: `If you have questions, contact privacy@${company_name
         .replace(/\s+/g, "")
         .toLowerCase()}.com`,
     },
@@ -76,7 +76,7 @@ const PrivacyPolicy: React.FC<Props> = ({
     <article className="max-w-3xl mx-auto bg-white shadow-sm rounded-2xl p-6 md:p-10 my-6">
       <header className="mb-6">
         <h1 className="text-2xl md:text-3xl font-semibold">
-          {companyName} — Privacy Policy
+          {company_name} — Privacy Policy
         </h1>
         <p className="text-sm text-slate-500 mt-1">
           Effective date: {effectiveDate}

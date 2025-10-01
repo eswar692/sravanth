@@ -1,4 +1,5 @@
 import { Phone, MessageCircle } from "lucide-react";
+import { phone_number, whatsapp_number } from "../Genaral/secrete";
 
 const services = [
   {
@@ -85,13 +86,13 @@ export default function Services() {
 
               {/* Buttons */}
               <div className="mt-6 flex gap-4 roboto">
-                <a href="tel:916302133653">
+                <a href={`tel:${phone_number}`}>
                   <button className="flex items-center gap-2 bg-orange-600 hover:bg-orange-700 text-white px-4 py-2 rounded-lg transition">
                     <Phone size={18} /> Call
                   </button>
                 </a>
                 <a
-                  href="https://wa.me/916302133653"
+                  href={`https://wa.me/${whatsapp_number}`}
                   target="_blank"
                   rel="noopener noreferrer"
                 >

@@ -2,6 +2,7 @@ import { MenuIcon, X } from "lucide-react";
 import { useState } from "react";
 import Marquee from "react-fast-marquee";
 import { Link } from "react-router-dom";
+import { company_name, phone_number } from "./secrete";
 
 const Header = () => {
   return (
@@ -26,7 +27,7 @@ const Title = () => (
       Any Problem? Connect with us
     </h5>
     <a
-      href="tel:+916302133653"
+      href={`tel://${phone_number}`}
       className="px-5 py-2 bg-gradient-to-r from-yellow-400 to-yellow-600 hover:from-yellow-500 hover:to-yellow-700 text-white font-semibold rounded-full shadow-lg transition-transform duration-300 hover:scale-105 montserrat text-sm"
     >
       Talk To Astrologer
@@ -45,7 +46,7 @@ const Logo = () => (
       />
       <div className="flex flex-col text-center md:text-left">
         <h1 className="montserrat font-bold text-2xl md:text-3xl">
-          Chamundeswari Astrology Center
+          {company_name} Center
         </h1>
         <p className="open-sans text-sm md:text-base text-gray-700 -mt-1">
           Since 1950
@@ -90,9 +91,7 @@ const MobileMenu = ({ setOpen }: { setOpen: (open: boolean) => void }) => (
   <div className="fixed top-0 left-0 w-full h-full z-50 bg-white p-8 flex flex-col justify-between shadow-2xl">
     <div>
       <div className="flex justify-between items-center mb-6">
-        <h1 className="montserrat text-2xl font-bold">
-          Chamundeswari Astrology Center
-        </h1>
+        <h1 className="montserrat text-2xl font-bold">{company_name} Center</h1>
         <button
           onClick={() => setOpen(false)}
           className="p-2 bg-gradient-to-r from-yellow-400 to-yellow-600 rounded-full shadow-lg hover:scale-105 transition-transform"
@@ -113,8 +112,8 @@ const MobileMenu = ({ setOpen }: { setOpen: (open: boolean) => void }) => (
       </ul>
     </div>
     <p className="open-sans text-gray-700 text-sm mt-6">
-      <b>Chamundeswari Astrology Center</b> - Trusted astrology services since
-      1950. Horoscope readings, match-making, career predictions, and spiritual
+      <b>{company_name} Center</b> - Trusted astrology services since 1950.
+      Horoscope readings, match-making, career predictions, and spiritual
       remedies to guide you through life with confidence.
     </p>
   </div>

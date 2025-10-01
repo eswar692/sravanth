@@ -1,6 +1,13 @@
 import { motion } from "framer-motion";
 import { ChevronRight } from "lucide-react";
 import useInViewOnce from "./InView";
+import {
+  company_name,
+  person_name,
+  phone_number,
+  website_url,
+  whatsapp_number,
+} from "./secrete";
 
 export default function Footer() {
   const [ref, inView] = useInViewOnce(0.2);
@@ -47,21 +54,21 @@ export default function Footer() {
           {/* About */}
           <div>
             <h2 className="font-bold text-xl mb-3 montserrat">
-              About Chamundeswari Astrology Center
+              About {company_name}
             </h2>
             <p className="text-sm open-sans leading-relaxed">
-              <b>Chamundeswari Astrology Center</b> is ranked as one of South
-              India's Top 5 Astrologers. Using exceptional astrological skills,
-              Dr. Sri Sanjeev Swamy helps clients understand themselves, their
-              goals, aspirations, constraints, and potential.
+              <b>{company_name}</b> is ranked as one of South India's Top 5
+              Astrologers. Using exceptional astrological skills, Dr. Sri{" "}
+              {person_name} helps clients understand themselves, their goals,
+              aspirations, constraints, and potential.
             </p>
           </div>
 
           {/* Contact */}
           <div className="px-3">
             <h2 className="font-bold text-xl mb-3 montserrat">Contact Us</h2>
-            <p className="open-sans">📞 91 63021 33653</p>
-            <p className="open-sans">💬 +91 63021 33653</p>
+            <p className="open-sans">📞 {phone_number}</p>
+            <p className="open-sans">💬 {whatsapp_number}</p>
             <p className="mt-2 font-bold text-yellow-500 montserrat">
               Best Astro Guidance
             </p>
@@ -129,11 +136,11 @@ const CopyRightAndContact = () => {
           <p className="text-sm font-opensans">
             © {new Date().getFullYear()}{" "}
             <a
-              href="https://www.chamundeswariastro.com"
+              href={website_url}
               target="_blank"
               className="font-semibold hover:text-yellow-300 transition"
             >
-              www.chamundeswariastro.com
+              {company_name}
             </a>{" "}
             – All Rights Reserved.
           </p>

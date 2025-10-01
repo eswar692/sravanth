@@ -1,17 +1,18 @@
 import { Quote } from "lucide-react";
+import { person_name } from "./secrete";
 
 const testimonials = [
   {
     name: "Mala Kapoor",
     location: "Goa",
     image: "https://astrologerdeepaksharma.in/images/client-1.png",
-    text: "I'm appreciative of Astrologer Sanjeev Swamy. For me, his prophecies come true. The fact that he is constantly there to lead me makes me feel lucky. It was great for me.",
+    text: `I'm appreciative of Astrologer ${person_name}. For me, his prophecies come true. The fact that he is constantly there to lead me makes me feel lucky. It was great for me.`,
   },
   {
     name: "Arjun Verma",
     location: "Mumbai",
     image: "https://astrologerdeepaksharma.in/images/client-2.png",
-    text: "Astrologer Sanjeev Swamy gave me advice on business-related issues. I sought his advice when I was in the midst of a significant loss; his remedies are effective and yield results quickly.",
+    text: `Astrologer ${person_name} gave me advice on business-related issues. I sought his advice when I was in the midst of a significant loss; his remedies are effective and yield results quickly.`,
   },
   {
     name: "Pratha Kumari",
@@ -35,7 +36,7 @@ export default function Testimonials() {
           Client Words
         </h2>
         <p className="mt-3 text-gray-600">
-          Astrologer Deepak Sharma has remedies for all your problems.
+          Astrologer {person_name} has remedies for all your problems.
         </p>
 
         <div className="mt-12 grid gap-8 md:grid-cols-3">

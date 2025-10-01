@@ -12,6 +12,12 @@ import Testimonials from "../Genaral/Testimonial";
 import FAQ from "../Genaral/FAQ";
 import CardCarousel from "../Genaral/CardsCarousel";
 import ImageGrid from "../Genaral/ImageGrid";
+import {
+  company_name,
+  person_name,
+  phone_number,
+  whatsapp_number,
+} from "../Genaral/secrete";
 
 const Home = () => {
   return (
@@ -106,7 +112,7 @@ const Problems = () => {
 
           {/* Button */}
           <a
-            href="https://wa.me/916302133653"
+            href={`https://wa.me/${whatsapp_number}`}
             target="_blank"
             rel="noopener noreferrer"
           >
@@ -131,13 +137,11 @@ const AboutAstrologer = () => {
             LET'S KNOW ABOUT
           </button>
           <h2 className="text-2xl font-bold text-red-600 mb-4 montserrat">
-            Chamundeswari Astrology Center
+            {company_name}
           </h2>
           <p className="text-gray-800 leading-relaxed mb-4 open-sans">
             The well-known astrologer in the world is{" "}
-            <span className="font-semibold text-red-600">
-              Chamundeswari Astrology Center
-            </span>{" "}
+            <span className="font-semibold text-red-600">{company_name}</span>{" "}
             Whenever we talk about astrology, his name is the first that springs
             to mind. He is here to give them astrological advice. He received
             instruction from his father and grandfather in astrology, which
@@ -154,9 +158,7 @@ const AboutAstrologer = () => {
             has a sizable international clientele that seeks his advice on how
             to solve their challenges. All branches of astrology are areas of
             expertise for{" "}
-            <span className="font-semibold text-red-600">
-              Chamundeswari Astrology Center
-            </span>
+            <span className="font-semibold text-red-600">{company_name}</span>
           </p>
         </div>
 
@@ -220,7 +222,7 @@ const AstrologyServices = () => {
                 <p className="text-gray-600 text-sm mb-4 open-sans">
                   {service.desc}
                 </p>
-                <a href="tel:916302133653">
+                <a href={`tel:${phone_number}`}>
                   <button className="montserrat flex items-center justify-center gap-2 w-full bg-gradient-to-r from-orange-400 to-red-500 text-white font-medium py-2.5 rounded-md hover:scale-105 transition-transform">
                     <Phone className="w-4 h-4" /> Call us now
                   </button>
@@ -239,17 +241,14 @@ const AstrologyServicesModern = () => {
     {
       title: "Marriage Specialist",
       img: "https://astrologerdeepaksharma.in/images/s2.png",
-      phone: "+91 63021 33653",
     },
     {
       title: "Husband Wife Dispute",
       img: "https://astrologerdeepaksharma.in/images/s1.png",
-      phone: "+91 63021 33653",
     },
     {
       title: "Ex Love Back Expert",
       img: "https://astrologerdeepaksharma.in/images/s3.png",
-      phone: "+91 63021 33653",
     },
   ];
   return (
@@ -274,7 +273,7 @@ const AstrologyServicesModern = () => {
               <h3 className="text-xl font-semibold text-gray-800 mb-2">
                 {service.title}
               </h3>
-              <a href={`tel:${service.phone}`}>
+              <a href={`tel:${phone_number}`}>
                 <button className="montserrat flex items-center justify-center gap-2 w-full bg-gradient-to-r from-red-500 to-pink-500 text-white font-medium py-2.5 rounded-full shadow-lg hover:shadow-red-400/50 hover:scale-105 transition-all">
                   <Phone className="w-4 h-4" /> Call Now
                 </button>
@@ -334,7 +333,7 @@ const AllServicesModern = () => {
                 {service.title}
               </h3>
               <p className="text-gray-600 mb-6 open-sans">{service.desc}</p>
-              <a href="tel:916302133653">
+              <a href={`tel:${phone_number}`}>
                 <button className="roboto flex items-center justify-center gap-2 bg-gradient-to-r from-red-500 to-pink-500 text-white px-6 py-2.5 rounded-full shadow-lg hover:shadow-red-400/50 hover:scale-105 transition-all">
                   <Phone className="w-4 h-4" />
                   Contact Us
@@ -356,7 +355,7 @@ function HomeLastDesign() {
         <div className="flex justify-center">
           <img
             src="https://i.pinimg.com/1200x/3d/ef/55/3def558579612a517065a7c48310e918.jpg" // replace with your Ganesha image
-            alt="Astrologer Sanjeev Swamy"
+            alt={person_name}
             className="w-96 h-96 rounded-full drop-shadow-xl"
           />
         </div>
@@ -364,13 +363,13 @@ function HomeLastDesign() {
         {/* Right Side - Content */}
         <div className="space-y-6">
           <h2 className="text-3xl md:text-4xl font-extrabold text-red-700">
-            Astrologer Sanjeev Swamy
+            Astrologer {person_name}
           </h2>
           <h3 className="text-xl font-semibold text-gray-800">
             Best Astrologer in India
           </h3>
           <p className="text-gray-600 leading-relaxed">
-            Astrologer Sanjeev Swamy stands amidst the celebrated Vastu
+            Astrologer {person_name} stands amidst the celebrated Vastu
             Consultants. His guidance sheds light on inner contradictions and
             reveals natural strengths of people.
           </p>
@@ -378,14 +377,14 @@ function HomeLastDesign() {
           {/* Contact Section */}
           <div className="flex flex-wrap gap-4 items-center">
             <a
-              href="tel:916302133653"
+              href={`tel:${phone_number}`}
               className="flex items-center gap-2 bg-red-600 text-white px-5 py-3 rounded-2xl font-medium shadow-md hover:bg-red-700 transition"
             >
               <Phone size={20} /> Call Now
             </a>
 
             <a
-              href="https://wa.me/916302133653"
+              href={`https://wa.me/${whatsapp_number}`}
               target="_blank"
               rel="noopener noreferrer"
               className="flex items-center gap-2 bg-green-600 text-white px-5 py-3 rounded-2xl font-medium shadow-md hover:bg-green-700 transition"
