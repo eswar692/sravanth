@@ -71,7 +71,6 @@ export default function Carousel() {
               key={slide.id}
               className="flex-[0_0_100%] min-w-0 relative h-full w-[100vw]"
             >
-              <h1>{slide.id}</h1>
               <img
                 src={slide.img}
                 alt={`Slide ${slide.id}`}
