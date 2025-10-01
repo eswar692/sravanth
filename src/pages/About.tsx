@@ -73,28 +73,6 @@ export default function About() {
           </p>
         </div>
       </div>
-
-      {/* Gallery */}
-      <div className="max-w-6xl mx-auto mt-16">
-        <h2 className="text-4xl md:text-5xl font-extrabold bg-gradient-to-r from-red-600 to-yellow-600 bg-clip-text text-transparent mb-10">
-          Gallery
-        </h2>
-        <div className="grid grid-cols-2 md:grid-cols-4 gap-6">
-          {slides.map((slide) => (
-            <div
-              key={slide.id}
-              className="relative group overflow-hidden rounded-xl shadow-lg transition duration-300"
-            >
-              <img
-                src={slide.img}
-                alt={`Slide ${slide.id}`}
-                className="w-full h-full object-cover transform group-hover:scale-110 transition duration-500"
-              />
-            </div>
-          ))}
-        </div>
-        <ImageGrid />
-      </div>
     </section>
   );
 }
